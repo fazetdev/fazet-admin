@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Visitors Log</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+      color: #333;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #444;
+    }
+
+    .log-section {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .log-item {
+      margin-bottom: 15px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Daily Visitors Log</h1>
+
+  <div class="log-section">
+    <div class="log-item">
+      <label for="date">📅 Date:</label>
+      <input type="text" id="date" placeholder="Enter the date">
+    </div>
+
+    <div class="log-item">
+      <label for="visitor">👣 Visitor(s):</label>
+      <input type="text" id="visitor" placeholder="Yes / No">
+    </div>
+
+    <div class="log-item">
+      <label for="items">Items Asked:</label>
+      <input type="text" id="items" placeholder="E.g. Size 43 men's shoe">
+    </div>
+
+    <div class="log-item">
+      <label for="sold">Sold:</label>
+      <input type="text" id="sold" placeholder="Yes / No">
+    </div>
+
+    <div class="log-item">
+      <label for="notes">Notes:</label>
+      <textarea id="notes" rows="4" placeholder="Enter any additional details or comments..."></textarea>
+    </div>
+  </div>
+
+</body>
+</html>
