@@ -5,6 +5,7 @@
       padding: 20px;
       background-color: #f2f4f8;
       color: #333;
+      border: 2px solid black;
     }
 
     h1 {
@@ -67,3 +68,17 @@
       line-height: 1.7;
     }
   
+    .notes {
+      display: flex;               /* Make children align in a row */
+      justify-content: flex-start; /* Align items at the start horizontally */
+      align-items: flex-start;     /* Align items at the top vertically */
+      gap: 20px;                   /* Optional: space between items */
+    }
+    
+    .quicknotes-list {
+      display: flex;
+      flex-direction: column;      /* Stack items vertically inside */
+      align-items: flex-start;     /* Align items to the left inside */
+      flex: 1;                     /* Optional: let it grow to fill space */
+    }
+    
